@@ -1,0 +1,119 @@
+/*------------- BASE IMPORT -------------*/
+@font-face {
+  font-family: "Futura-Bold";
+  src: url("../fonts/Futura-Bold.otf"); }
+
+@font-face {
+  font-family: "Futura Medium";
+  src: url("../fonts/Futura Medium.otf"); }
+
+/*------------- UTILITIES IMPORT -------------*/
+html,
+body {
+  overflow-x: hidden;
+  font-size: 12px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+ol,
+span {
+  margin: 0;
+  padding: 0; }
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0; }
+
+input,
+button {
+  border: none; }
+  input:focus,
+  button:focus {
+    outline: none; }
+
+::-moz-selection {
+  background-color: #1040fb;
+  color: #ffffff; }
+
+::selection {
+  background-color: #1040fb;
+  color: #ffffff; }
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 14px; } }
+
+@media screen and (min-width: 992px) {
+  html,
+  body {
+    font-size: 15px; } }
+
+@media screen and (min-width: 1200px) {
+  html,
+  body {
+    font-size: 16px; } }
+
+/*------------- UTILITY CLASSES -------------*/
+/*------------- MODULES IMPORT -------------*/
+/*------------- TABLE OF CONTENTS -------------*/
+/*
+
+    1. MAIN
+
+*/
+/*------------- 1. MAIN -------------*/
+.main {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 2rem; }
+  @media screen and (min-width: 768px) {
+    .main {
+      padding: 5rem;
+      min-height: 100vh; } }
+  .main__title {
+    font-family: "Futura-Bold", "Helvetica", "Arial", sans-serif;
+    color: #000000;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 3rem; }
+    @media screen and (min-width: 768px) {
+      .main__title {
+        font-size: 5rem;
+        line-height: 7rem;
+        margin-bottom: 4rem; } }
+    @media screen and (min-width: 992px) {
+      .main__title {
+        font-size: 8rem;
+        line-height: 10rem; } }
+    .main__title--accent {
+      display: block;
+      color: #1040fb; }
+  .main__text {
+    font-family: "Futura-Medium", "Helvetica", "Arial", sans-serif;
+    color: #000000;
+    font-size: 1.333rem; }
+    @media screen and (min-width: 768px) {
+      .main__text {
+        font-size: 2rem;
+        max-width: 900px; } }
+    .main__text + .main__text {
+      margin-top: 1.333rem; }
+      @media screen and (min-width: 768px) {
+        .main__text + .main__text {
+          margin-top: 2.5rem; } }
+    .main__text--link:link, .main__text--link:hover, .main__text--link:active, .main__text--link:visited {
+      color: #1040fb;
+      text-decoration: none; }

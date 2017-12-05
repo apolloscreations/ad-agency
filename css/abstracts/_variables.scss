@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Futura-Bold";
+    src: url("../fonts/Futura-Bold.otf");
+}
+
+@font-face {
+    font-family: "Futura-Regular";
+    src: url("../fonts/Futura-Reg.otf");
+}
+
+$font-bld: "Futura-Bold", "Helvetica", "Arial", sans-serif;
+$font-reg: "Futura-Regular", "Helvetica", "Arial", sans-serif;
+
+$color-black: #000000;
+$color-accent: #1040fb;
+$color-white: #ffffff;
